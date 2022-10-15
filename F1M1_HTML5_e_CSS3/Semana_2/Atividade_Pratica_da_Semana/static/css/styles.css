@@ -1,0 +1,160 @@
+* {
+    font-family: Open Sans, Courier, Caveat, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(blueviolet, black);
+    width: 100%;
+    color: white;
+}
+
+.td-header-img {
+    width: 10%;
+}
+
+header img {
+    margin-left: 20px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+header h5 {
+    font-family: "Courier";
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+
+table, td, th {
+    /*border: 1px solid black;*/
+}
+
+table {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 35px;
+    padding-left: 3.5em;
+    display: inline-block;
+}
+
+li i {
+    font-size: 14px;
+}
+
+.custom-button:hover {
+    color: gray;
+    background-color: #286090;
+    cursor: pointer;
+}
+
+.custom-button {
+    font-family: Caveat;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 38px;
+    color: white;
+}
+
+.custom-button.active {
+    background-color: #2b2a2a;
+}
+
+.custom-button.inative {
+    color: #1e1c1c;
+}
+
+.custom-button-submit {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.hero-text {
+    font-family: Caveat;
+    color: white;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.hero-text h1 {
+    margin-left: 20px;
+    font-family: "Open Sans";
+    color: goldenrod;
+}
+
+.hero-text h2, h3 {
+    font-family: Caveat;
+    margin-left: 20px;
+}
+
+.hero-img img {
+    border-radius: 10px;
+    width: 500px;
+}
+
+.topic-link a {
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.contacts {
+    padding-left: 0;
+}
+
+.contacts li {
+    margin-bottom: 1px;
+    display: block;
+    padding-left: 0;
+    line-height: 25px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+select {
+    width: 51%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-top: 2px;
+    background-color: white;
+    text-align: center;
+    min-height:50px;
+    width: 100%;
+}
