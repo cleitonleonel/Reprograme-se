@@ -45,7 +45,7 @@ ul {
 
 li {
     line-height: 35px;
-    padding-left: 3.5em;
+    padding-left: 4em;
     display: inline-block;
 }
 
@@ -74,6 +74,10 @@ li i {
 
 .custom-button.inative {
     color: #1e1c1c;
+}
+
+.custom-button.inative:hover {
+    color: white;
 }
 
 .custom-button-submit {
