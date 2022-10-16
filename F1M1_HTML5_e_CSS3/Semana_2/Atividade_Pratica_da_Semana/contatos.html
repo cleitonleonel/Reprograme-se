@@ -59,73 +59,73 @@
 			</td>
 		</tr>
 	</table>
-	
-	<table style="border-spacing: 10px;">
-		<tr>
-			<td>
-				<p>
-					<label for="assunto">Assunto</label><br>
-					<select title="Selecione o assunto" name="assunto" id="assunto" required>
-						<option>Selecione o assunto</option>
-						<option value="1">Orçamento para desenvolvimento de sites</option>
-						<option value="2">Scripts para automação</option>
-						<option value="3">Extrair dados de sites</option>
-					</select>
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>
-					<label for="nome">Nome</label>
-					<br>
-					<input type="text" id="nome" title="Digite seu nome" placeholder="Digite seu nome" required>
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>
-					<label for="email">Email</label>
-					<br>
-					<input type="email" title="Digite seu email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email" placeholder="Digite seu email" required>
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>
-					<label for="phone">Telefone</label><br>
-					<input type="tel" id="phone" title="Digite seu telefone" pattern="\(\d{2}\)\d{4}-\d{4}" placeholder="Digite seu telefone" required>
-				</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>
-					<label for="message">Mensagem</label>
-					<br>
-					<textarea id="message" title="Digite aqui sua mensagem" placeholder="Digite aqui sua mensagem"></textarea>
-				</p>
-				<button class="custom-button-submit" type="submit" onclick="send_me_notify()" style="margin-left: 0;">Enviar</button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<hr>
-				<h4 style="margin-bottom: 1px">Outras formas de contato:</h4>
-				<ul class="contacts">
-					<li>Residente em Cariacica-ES</li>
-					<li><a href="mailto:cleiton.leonel@gmail.com">cleiton.leonel@gmail.com</a></li>
-					<li>(27) 9 9577-2291</li>
-					<li><a href="https://www.linkedin.com/in/cleiton-leonel-creton-331138167">LinkedIn</a></li>
-					<li><a href="https://github.com/cleitonleonel">Github</a></li>
-					<li><a href="https://t.me/CleitonLC">Telegram</a></li>
-				</ul>
-			</td>
-		</tr>
-	</table>
-	
+	<form action="/send" method="POST">
+		<table style="border-spacing: 10px;">
+			<tr>
+				<td>
+					<p>
+						<label for="assunto">Assunto</label><br>
+						<select title="Selecione o assunto" name="assunto" id="assunto" required>
+							<option>Selecione o assunto</option>
+							<option value="1">Orçamento para desenvolvimento de sites</option>
+							<option value="2">Scripts para automação</option>
+							<option value="3">Extrair dados de sites</option>
+						</select>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="nome">Nome</label>
+						<br>
+						<input type="text" id="nome" title="Digite seu nome" placeholder="Digite seu nome" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="email">Email</label>
+						<br>
+						<input type="email" title="Digite seu email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email" placeholder="Digite seu email" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="phone">Telefone</label><br>
+						<input type="tel" id="phone" title="Digite seu telefone" pattern="\(\d{2}\)\d{5}-\d{4}" placeholder="(27)99999-9999" required>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<label for="message">Mensagem</label>
+						<br>
+						<textarea id="message" title="Digite aqui sua mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+					</p>
+					<button class="custom-button-submit" type="submit" style="margin-left: 0;">Enviar</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<hr>
+					<h4 style="margin-bottom: 1px">Outras formas de contato:</h4>
+					<ul class="contacts">
+						<li>Residente em Cariacica-ES</li>
+						<li><a href="mailto:cleiton.leonel@gmail.com">cleiton.leonel@gmail.com</a></li>
+						<li>(27) 9 9577-2291</li>
+						<li><a href="https://www.linkedin.com/in/cleiton-leonel-creton-331138167">LinkedIn</a></li>
+						<li><a href="https://github.com/cleitonleonel">Github</a></li>
+						<li><a href="https://t.me/CleitonLC">Telegram</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</form>
 	<footer>
 		<p>copyright © 2022</p>
 		<article>
