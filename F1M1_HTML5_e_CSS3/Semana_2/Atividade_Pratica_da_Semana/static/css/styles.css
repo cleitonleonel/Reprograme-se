@@ -19,7 +19,7 @@ header img {
 }
 
 header h5 {
-    font-family: "Courier";
+    font-family: "Courier", cursive;
     font-size: 18px;
 }
 
@@ -41,12 +41,24 @@ table {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
     line-height: 35px;
-    padding-left: 4em;
     display: inline-block;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu li {
+    padding: 30px;
 }
 
 li i {
@@ -60,7 +72,7 @@ li i {
 }
 
 .custom-button {
-    font-family: Caveat;
+    font-family: 'Caveat', cursive;
     font-size: 30px;
     border-radius: 10px;
     text-decoration: none;
@@ -100,18 +112,18 @@ li i {
 }
 
 .hero-text {
-    font-family: Caveat;
+    font-family: 'Caveat', cursive;
     color: white;
 }
 
 .hero-text h1 {
     margin-left: 20px;
-    font-family: "Open Sans";
+    font-family: 'Caveat', cursive;
     color: goldenrod;
 }
 
 .hero-text h2, h3 {
-    font-family: Caveat;
+    font-family: 'Caveat', cursive;
     margin-left: 20px;
 }
 
